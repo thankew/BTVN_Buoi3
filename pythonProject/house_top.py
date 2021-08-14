@@ -18,7 +18,7 @@ t.forward(142)
 t.end_fill()
 
 
-turtle.done
+
 
 
 

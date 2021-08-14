@@ -4,7 +4,10 @@ t = turtle.Turtle()
 
 # for door and
 # windows
-
+t.penup()
+t.goto(400,0)
+t.pendown()
+t.right(90)
 t.right(90)
 t.forward(400)
 t.left(90)
@@ -46,4 +49,4 @@ t.forward(15)
 t.right(90)
 t.forward(75)
 
-turtle.done()
+
