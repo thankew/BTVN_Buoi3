@@ -21,7 +21,7 @@ elif option == 1:
     print(ds.list_content)
     print(str(nh.a1) + "\t\t" + str(nh.a2) + "\t" + str(nh.a3) + "\t\t" + str(nh.a4) + "\t" + str(nh.a5)
           + "\t\t\t\t\t" + str(nh.a6) + "\t\t\t\t\t" + str(nh.a7) + "\t\t\t\t\t" + str(nh.a8) + "\n")
-    option = int(input("Nhập chức năng bạn muốn (1/2/3/4/5): "))
+
 elif option == 3:
     print(ds.list_pass)
 elif option == 4:
