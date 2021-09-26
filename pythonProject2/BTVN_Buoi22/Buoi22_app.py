@@ -25,8 +25,8 @@ elif choice == "3":
     t.employee.get_annual_salary(nv1)
 elif choice == "4":
     #input validation
-    percent = -1
-    while percent not in range(1,101):
+    percent = 1
+    while percent in range(1,101):
         percent = int(input("Nhập % tăng lương nhân viên [0->100]: "))
         t.employee.raise_salary(nv1,percent)
 
