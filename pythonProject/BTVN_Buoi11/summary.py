@@ -20,7 +20,7 @@ def circle(r,c):
     turtle.done()
 
 
-# Hinh tam giac
+# Hinh tam giac deu
 def triangle(a,i):
     t.fillcolor(i)
     t.begin_fill()
@@ -48,7 +48,7 @@ a = "Xin chao! Hay nhap hinh ban muon ve" \
     " Hinh tron: C." \
     " Hinh chu nhat: R.  "
 print(a)
-m = input("Hinh muon ve la: ")
+m = raw_input("Hinh muon ve la: ",)
 if m == "S":
     w = input("Hay nhap do dai: ")
     c = str(input("Hay nhap mau: "))

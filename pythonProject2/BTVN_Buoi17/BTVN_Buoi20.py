@@ -42,7 +42,8 @@ def look_up(contacts):
     look_up = input("Nhập tên cần tra: ").lower().capitalize()
     for ppl in contacts:
         if look_up == ppl["Name"]:
-            print(ppl)
+            for ppl2 in ppl.keys():
+                print(f'{ppl2}: {ppl[ppl2]}')
             print("Kết thúc")
             break
         else:
